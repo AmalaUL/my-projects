@@ -1,0 +1,6 @@
+# .gitignore file
+
+node_modules/
+.vscode/
+.DS_Store
+.env
