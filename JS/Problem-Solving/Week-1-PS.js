@@ -177,3 +177,39 @@ function firstNonRepeatingChar(str) {
 console.log(firstNonRepeatingChar("aabbcde"));        // 'c'
 console.log(firstNonRepeatingChar("aab bcc"));         // null
 console.log(firstNonRepeatingChar("Stress"));         // 't'
+
+//Problem - 7: FizzBuzz
+function fizzBuzz(num) {
+    let numArr = []
+    for (let i = 1; i <= num; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            numArr.push('FizzBuzz');
+        } else if (i % 3 === 0) {
+            numArr.push('Fizz');
+        } else if (i % 5 === 0) {
+            numArr.push('Buzz');
+        } else {
+            numArr.push(i);
+        }
+    }
+    return numArr;
+
+}
+console.log(fizzBuzz(15));
+
+//Problem -8: 
+function CompareTriplets(arr1, arr2) {
+    let playerA = 0;
+    let playerB = 0;
+    for (let i = 0; i < arr1.length; i++) {
+        if (arr1[i] > arr2[i]) {
+            playerA += 1;
+        } else if (arr1[i] < arr2[i]) {
+            playerB += 1;
+        }
+    }
+
+    return [playerA, playerB];
+}
+
+console.log(CompareTriplets([5, 6, 7], [3, 6, 10]));

@@ -37,6 +37,7 @@ describe('Login Session Persistance Check', () => {
                     })
             });
     })
+    
     afterEach('logout the application', () => {
         login.navLink().contains('Logout').click();
         login.loginButton().should('be.visible');

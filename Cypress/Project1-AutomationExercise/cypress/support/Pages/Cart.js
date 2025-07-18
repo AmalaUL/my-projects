@@ -1,7 +1,5 @@
 class Cart {
-    cartLink() {
-        return cy.get('.navbar-nav>li>a');
-    }
+    
     cartDescription() {
         return cy.get('.cart_description');
     }
