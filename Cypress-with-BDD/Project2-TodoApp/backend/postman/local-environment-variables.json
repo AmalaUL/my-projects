@@ -1,0 +1,21 @@
+{
+	"id": "74cc7f5a-1161-42a3-a2f1-f67be8aed556",
+	"name": "Local",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:5000",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "todoId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-07-30T14:08:12.678Z",
+	"_postman_exported_using": "Postman/11.56.2"
+}
